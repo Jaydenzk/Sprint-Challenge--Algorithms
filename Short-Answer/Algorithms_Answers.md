@@ -16,11 +16,9 @@ I would use binary search approach on this question
 
 let's start on the middle floor and drop the egg the middle floor should equal to total number of floors/2
 
-2 assumption can be shown here
+1. If egg Not break then move halfway up to the top floor
 
-If egg Not break then move halfway up to the top floor
-
-If egg break move halfway down to the bottom floor
+2. If egg break move halfway down to the bottom floor
 
 Repeat this process in a loop until the floor has lowest number of broken eggs
 
